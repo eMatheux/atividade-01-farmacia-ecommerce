@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER STYLE (MENU NAV / ICON IMAGE/ TITLE WEBSITE*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #E5E5E5;
+    justify-content: center;
+    padding: 12px 0 12px 0;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    gap: 5%;
+}
+header img{
+    width: 50px;
+}
+.content-left {
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+
+}
+
+.content-nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: center;
+}
+
+.content-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.content-nav a:hover{
+    font-weight: 500
+}
+
+.content-nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.main-content h3 {
+    padding-left: 45px;
+    padding-bottom: 20px;
+}
+
+.principal {
+    width: 1170px;
+    height: 1165px;
+}
+
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    background-color: #E5E5E5;
+    
+    
+}
+
+.produto .favorite-class {
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.produto h5 {
+    font-weight: 400;
+}
+
+.produto h5, h4{
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+button {
+    color: white;
+    background-color: #525252;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 35px 10px 35px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 20px;
+    
+}
+
+button:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #E5E5E5;
+
+    padding: 20px 0px 0px 0px;
+}
+
+footer h2{
+    padding: 20px 0px 20px 0px;
+}
+
+footer p {
+    padding-top: 30px;
+}
+
+
+/* ABA CONTATO! */
+
+
+.main-content-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-contato {
+    width: 1170px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.main-contato h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.form-item input {
+    width: 400px;
+    height: 40px;
+    border: black 2px solid;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.form-item .assunto-item{
+    width: 400px;
+    height: 40px;
+    border: black 2px solid;
+    padding-left: 10px;
+
+}
+
+.form-item textarea {
+    border: black 2px solid;
+    padding: 10px 0px 0px 10px;
+    width: 386px;
+}
+
+.form-item .input-mensagem {
+    width: 400px;
+    height: 100px;
+    text-align: initial;
+}
+
+
+
+.main-content-sobrenos{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.main-content-sobrenos p {
+    width: 60%;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.main-content-sobrenos img {
+    margin-top: 40px;
+}
+
+.main-content-sobrenos .icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    
+}
